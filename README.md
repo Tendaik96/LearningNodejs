@@ -8,8 +8,9 @@ GO TO https://nodeschool.io/london/
 3. Follow the instructions
 
 ### COMPLETE
-Task 1 (hello-world.js) - Console logging "Hello world"
+Task 1 (hello-world.js) - Console log "Hello world"
 
 Task 2 (baby-step.js) - Add all the numbers in the process.argv array
 
-Task 3 (my-first-io.js) -
+Task 3 (my-first-io.js) - Write a program that uses a single synchronous filesystem operation to  
+  read a file and print the number of newlines (/n) it contains
