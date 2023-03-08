@@ -1,6 +1,8 @@
 //TASK 2
     //let result = process.argv.map((i) => Number(i));
     //console.log(result.length);
+    //command line for testing: node baby-steps.js
+console.log(process.argv)
     
     let count = 0;
 
