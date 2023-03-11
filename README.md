@@ -12,8 +12,19 @@ When Node.js is installed on a system, it provides a program called node, which 
 
 To find the command line arguments given to your script, you can read process.argv, which is an array of strings. Note that it also includes the name of the node command and your script name, so the actual arguments start at index 2.
 
+If you run node without giving it a file, it provides you with a prompt at
+which you can type JavaScript code and immediately see the result.
+
 ### The File System Module
 One of the most commonly used built-in modules in Node is the fs module, which stands for file system. It exports functions for working with files and directories.
+
+### Synchronous and Asynchronous
+- readFileSync() is synchronous - we can read files in a synchronous way, i.e. we are telling node.js to block other parallel process and do the current file reading process. That is, when the fs.readFileSync() method is called the original node program stops executing, and node waits for the fs.readFileSync() function to get executed, after getting the result of the method the remaining node program is executed
+
+- readFile() is asynchronous - we can read a file in a non-blocking asynchronous way
+
+
+
 
 ### COMPLETED
 Challenege 1 (hello-world.js) - Console log "Hello world"

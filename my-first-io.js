@@ -2,7 +2,7 @@
   read a file and print the number of newlines (/n) it contains to the  
 console(stdout), similar to running  */
   
-// node my-first-io.js
+// command line run file: node my-first-io.js
 
 /* Buffer objects are Node's way of efficiently representing arbitrary arrays  
   of data, whether it be ascii, binary or some other format. Buffer objects  
