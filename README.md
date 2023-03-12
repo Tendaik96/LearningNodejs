@@ -37,3 +37,8 @@ Challenege 3 (my-first-io.js) - Write a program that uses a single synchronous f
 Challenege 4 (my-first-async-io.js) - Write a program that uses a single asynchronous filesystem operation to  
   read a file and print the number of newlines it contains to the console  
   (stdout), similar to running
+
+Challenge 5 (filtered-ls.js) -  Create a program that prints a list of files in a given directory,  
+  filtered by the extension of the files. You will be provided a directory  
+  name as the first argument to your program (e.g. '/path/to/dir/') and a  
+  file extension to filter by as the second argument. 
