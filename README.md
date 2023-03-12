@@ -7,6 +7,7 @@ GO TO https://nodeschool.io/london/
 2. learnyounode 
 3. Follow the instructions
 
+
 ### The Node Command line - (Ref: Eloquent Javascript by Marijn Haverbeke)
 When Node.js is installed on a system, it provides a program called node, which is used to run JavaScript files. The console.log method in Node does something similar to what it does in the browser. It prints out a piece of text. But in Node, the text will go to the process’s standard output stream, rather than to a browser’s JavaScript console. When running node from the command line, that means you see the logged values in your terminal.
 
@@ -15,8 +16,10 @@ To find the command line arguments given to your script, you can read process.ar
 If you run node without giving it a file, it provides you with a prompt at
 which you can type JavaScript code and immediately see the result.
 
+
 ### The File System Module
 One of the most commonly used built-in modules in Node is the fs module, which stands for file system. It exports functions for working with files and directories.
+
 
 ### Synchronous and Asynchronous
 - readFileSync() is synchronous - we can read files in a synchronous way, i.e. we are telling node.js to block other parallel process and do the current file reading process. That is, when the fs.readFileSync() method is called the original node program stops executing, and node waits for the fs.readFileSync() function to get executed, after getting the result of the method the remaining node program is executed
@@ -24,6 +27,11 @@ One of the most commonly used built-in modules in Node is the fs module, which s
 - readFile() is asynchronous - we can read a file in a non-blocking asynchronous way
 
 
+### Idiomatic Node Convention
+The callback function must be called using the idiomatic node(err, data)
+convention. This convention stipulates that unless there's an error, the
+first argument passed to the callback will be null, and the second will be
+your data.
 
 
 ### COMPLETED

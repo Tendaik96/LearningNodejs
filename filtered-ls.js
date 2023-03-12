@@ -1,6 +1,6 @@
 // fs.readdir(path, [options], callback) - for asynchronous
 // fs.readdirSync(path, [options]) - for synchronous
-let fs = require("fs");
+const fs = require("fs");
 const path = require("path");
 
 // specify the directory and file type and store them in a variable
