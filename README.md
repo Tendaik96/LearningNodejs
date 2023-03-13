@@ -13,8 +13,7 @@ When Node.js is installed on a system, it provides a program called node, which 
 
 To find the command line arguments given to your script, you can read process.argv, which is an array of strings. Note that it also includes the name of the node command and your script name, so the actual arguments start at index 2.
 
-If you run node without giving it a file, it provides you with a prompt at
-which you can type JavaScript code and immediately see the result.
+If you run node without giving it a file, it provides you with a prompt at which you can type JavaScript code and immediately see the result.
 
 
 ### The File System Module
@@ -28,10 +27,7 @@ One of the most commonly used built-in modules in Node is the fs module, which s
 
 
 ### Idiomatic Node Convention
-The callback function must be called using the idiomatic node(err, data)
-convention. This convention stipulates that unless there's an error, the
-first argument passed to the callback will be null, and the second will be
-your data.
+The callback function must be called using the idiomatic node(err, data) convention. This convention stipulates that unless there's an error, the first argument passed to the callback will be null, and the second will be your data.
 
 
 ### COMPLETED
